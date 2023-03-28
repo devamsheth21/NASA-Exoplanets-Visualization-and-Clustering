@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <!-- <title>Homework #4: CSE 578 - Spring 2023</title> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="./main.js"></script>
+        <style>
+         
+         body {
+                background-image: url('seafloor.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+                background-size: 100% 100%;
+             }
+            svg {
+                
+                /* background-color: white; */
+                
+                border-radius: 3px;
+                
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div class="myContainer">
+            <select onchange="Updatechart()" id="cluster-select">
+                <option value=0>Cluster 0 </option>
+                <option value=1>Cluster 1</option>
+                <option value=2>Cluster 2</option>
+                <option value=3>Cluster 3</option>
+            </select>
+            <h4 align= "center" color ="blue"> Planet Aquarium</h4 >
+            <p style="text-align: justify; color: #7c05f2;"> From the NASA Exoplanet dataset, 4 clusters of planets were selected using clustering algorithms to plot those
+                planets around their common center(sun). The planets are visualized in form of Sea creatures,where different
+                planet types are shown using different seacreatures. The brightness(stellar magnitude) is visualized using 
+                color. The radius of the planet is represented through size of each planet(sea-creature). The user can hover
+                on each planet to see their orbit, and other information like Discovery year,Name, Mass and other attributes.
+                The legend shows the types of planets along with a count of how many of each type are in the visualization. 
+                A bar chart alongside the legend shows a horizontal bar for each planet type, scaled according to the count 
+                of planets of that type in the visualization.The cluster select option allows the user to filter the visualization by different groupings of planets.
+            </p>
+            <div id="visualization" >
+            </div>
+        </div>    
+            </p>
+            <div id="visualization" >
+            </div>
+        </div>
+    </body>
+</html> 
