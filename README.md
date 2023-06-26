@@ -26,8 +26,10 @@ The dataset used for this visualization is the NASA Exoplanets dataset. It conta
 
 ## Installation and Setup
 1. Clone the repository: `git clone https://github.com/your-username/exoplanet-visualization.git`
-2. Install the necessary dependencies: `npm install` or `yarn install`
-3. Launch the application: Open the `index.html` file in your preferred web browser.
+2. Go the the repository folder by running "cd Devam-Hitansh-Manan-Niketan-Nihar-Tirth" command.
+3. Go the the repository folder by running "cd  NASA-Exoplanets-Visualization-and-Clustering" command.
+4. Start python server by running command "python -m http.server". Note: python should be installed for running this command.
+5. Open Firefox browser window and go to "localhost:8000".
 
 ## Usage
 1. Upon launching the application, you will see the scatter plot visualization of exoplanets.
