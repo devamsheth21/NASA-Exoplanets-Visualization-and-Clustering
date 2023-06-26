@@ -1,5 +1,8 @@
 # Exoplanet Visualization Project
 
+## GitHub Pages
+The visualization can be accessed online via [GitHub Pages](https://devamsheth21.github.io/NASA-Exoplanets-Visualization-and-Clustering/).
+
 ## Homework #4: Innovative Visualization Design
 
 In this homework, I have created a unique visualization that goes beyond the "common chart types" to showcase the NASA Exoplanets dataset in an innovative and creative manner. This project was completed as part of an assignment for Data Visualization at Arizona State University.
